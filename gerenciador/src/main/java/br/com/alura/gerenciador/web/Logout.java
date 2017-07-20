@@ -18,6 +18,6 @@ public class Logout extends HttpServlet{
 			throws ServletException, IOException {
 		req.getSession().removeAttribute("usuario.logado");
 		PrintWriter writer = resp.getWriter();
-		writer.println("<html><body>Deslogado com sucesso!!!!</html></body");
+		writer.println("<html><body>Deslogado com sucesso!!!!uol</html></body");
 	}
 }
